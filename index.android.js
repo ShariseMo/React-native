@@ -13,7 +13,7 @@ class CommentDemo extends Component{
         <Text>{FormatDate(COMMENT_DATA.date)}</Text>
         <Comment author={COMMENT_DATA.author} content={COMMENT_DATA.content} date={COMMENT_DATA.date}/>
       </View>
-      // <Comment {...COMMENT_DATA}/>
+      // <Comment {...COMMENT_DATA}/> 解构赋值
     );
   }
 }
